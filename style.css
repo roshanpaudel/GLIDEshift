@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+/* <!-- hero  --> */
+/* <!-- hero  --> */
+/* <!-- hero  --> */
+.hero {
+  width: 100%;
+  height: 85vh;
+  position: relative;
+}
+.hero > video {
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+}
+hr {
+  background-color: rgb(70, 17, 2) !important;
+  height: 3px;
+  border: 0px;
+}
+.card {
+  color: rgb(70, 17, 2);
+  position: absolute;
+  width: 400px;
+  background: rgba(128, 128, 128, 0.582);
+  top: 30vh;
+  left: 10vw;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
+.down {
+  color: orangered;
+  font-size: 50px;
+  position: absolute;
+  bottom: 100px;
+  left: 50vw;
+  animation: goDown 1s infinite;
+}
+@keyframes goDown {
+  0% {
+    bottom: 100px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+
+/* <!-- navbar  --> */
+/* <!-- navbar  --> */
+/* <!-- navbar  --> */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 20px;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.genos-text {
+  font-family: "Genos", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
